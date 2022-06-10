@@ -9,12 +9,12 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
         { url: "/worldofss", text: "WORLD OF SUNITA SHEKHAWAT" },
         { url: "worldofss/", text: "FINE JEWELLERY" },
         { url: "worldofss/", text: "EVENTS & NEWS" },
-        { url: "worldofss/", text: "CAMPAIGNS" },
+        { url: "/campaigns", text: "CAMPAIGNS" },
         { url: "/stores", text: "STORES" },
     ];
     return (
         <div className="w-full">
-            <div className="hidden md:block p-5">
+            <div className="hidden md:block p-5 border-b border-gray-300">
                 <div className="">
                     <a href="/">
                         <img
@@ -29,7 +29,9 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                     </a>
                     <a className="nav-item">FINE JEWELLERY</a>
                     <a className="nav-item">EVENTS {"&"} NEWS</a>
-                    <a className="nav-item">CAMPAIGNS</a>
+                    <a href={"/campaigns"} className="nav-item">
+                        CAMPAIGNS
+                    </a>
                     <a href={"/stores"} className="nav-item">
                         STORES
                     </a>

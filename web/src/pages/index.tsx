@@ -54,10 +54,10 @@ const Home = () => {
             <Navbar />
             <div className="flex flex-col md:flex-row items-center">
                 <img
-                    className="md:w-7/12 mb-2 md:mb-0"
-                    src="https://sunitashekhawat.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fpattern.ee838043b4e3809e28a11f470137965c.png&w=1920&q=75"
+                    className="md:w-8/12 mb-2 md:mb-0"
+                    src="https://sunitashekhawat.com/skin/frontend/flamingo/default/images/home-banner1.jpg"
                 />
-                <div className="w-5/12 text-center">
+                <div className="w-4/12 text-center">
                     <p className="text-4xl pfr text-purple">
                         THE
                         <br />
