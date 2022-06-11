@@ -25,11 +25,11 @@ const Campaigns: React.FC<CampaignsProps> = ({}) => {
                 <p className="text-2xl pfr text-center text-purple">
                     LONGBOOKS
                 </p>
-                <div className="flex items-center my-5 p-3 bg-white">
-                    <div className="w-4/6">
+                <div className="flex flex-col md:flex-row items-center my-5 md:p-3 bg-white">
+                    <div className="md:w-4/6 w-full">
                         <img src="https://sunitashekhawat.com/skin/frontend/flamingo/default/images/campaign-img6.jpg" />
                     </div>
-                    <div className="w-2/6 p-3.5">
+                    <div className="md:w-2/6 md:p-3.5 p-2">
                         <p className="text-xl pfr text-center text-gold">
                             DAMAK
                         </p>
@@ -56,8 +56,8 @@ const Campaigns: React.FC<CampaignsProps> = ({}) => {
                         </p>
                     </div>
                 </div>
-                <div className="flex items-center my-5 p-3 bg-white">
-                    <div className="w-2/6 p-3.5">
+                <div className="flex flex-col md:flex-row items-center my-5 md:p-3 bg-white">
+                    <div className="md:w-2/6 md:p-3.5 p-2">
                         <p className="text-xl pfr text-center text-gold">
                             THE OLD MYSTIQUE CHARM
                         </p>
@@ -79,15 +79,15 @@ const Campaigns: React.FC<CampaignsProps> = ({}) => {
                             audience.
                         </p>
                     </div>
-                    <div className="w-4/6">
+                    <div className="md:w-4/6 w-full">
                         <img src="https://sunitashekhawat.com/skin/frontend/flamingo/default/images/campaign-img5.jpg" />
                     </div>
                 </div>
-                <div className="flex items-center my-5 p-3 bg-white">
-                    <div className="w-4/6">
+                <div className="flex flex-col md:flex-row items-center my-5 md:p-3 bg-white">
+                    <div className="md:w-4/6 w-full">
                         <img src="https://sunitashekhawat.com/skin/frontend/flamingo/default/images/campaign-img1.jpg" />
                     </div>
-                    <div className="w-2/6 p-3.5">
+                    <div className="md:w-2/6 md:p-3.5 p-2">
                         <p className="text-xl pfr text-center text-gold">
                             AISLE OF THE SKY
                         </p>
@@ -108,8 +108,8 @@ const Campaigns: React.FC<CampaignsProps> = ({}) => {
                         </p>
                     </div>
                 </div>
-                <div className="flex items-center my-5 p-3 bg-white">
-                    <div className="w-2/6 p-3.5">
+                <div className="flex flex-col md:flex-row items-center my-5 md:p-3 bg-white">
+                    <div className="md:w-2/6 md:p-3.5 p-2">
                         <p className="text-xl pfr text-center text-gold">
                             FOREST GODDESS
                         </p>
@@ -128,15 +128,15 @@ const Campaigns: React.FC<CampaignsProps> = ({}) => {
                             adorn you, not overpower you.
                         </p>
                     </div>
-                    <div className="w-4/6">
+                    <div className="md:w-4/6 w-full">
                         <img src="https://sunitashekhawat.com/skin/frontend/flamingo/default/images/campaign-img2.jpg" />
                     </div>
                 </div>
-                <div className="flex items-center my-5 p-3 bg-white">
-                    <div className="w-4/6">
+                <div className="flex flex-col md:flex-row items-center my-5 md:p-3 bg-white">
+                    <div className="md:w-4/6 w-full">
                         <img src="https://sunitashekhawat.com/skin/frontend/flamingo/default/images/campaign-img3.jpg" />
                     </div>
-                    <div className="w-2/6 p-3.5">
+                    <div className="md:w-2/6 md:p-3.5 p-2">
                         <p className="text-xl pfr text-center text-gold">
                             THE WATER MAIDEN
                         </p>
@@ -158,8 +158,8 @@ const Campaigns: React.FC<CampaignsProps> = ({}) => {
                         </p>
                     </div>
                 </div>
-                <div className="flex items-center my-5 p-3 bg-white">
-                    <div className="w-2/6 p-3.5">
+                <div className="flex flex-col md:flex-row items-center my-5 md:p-3 bg-white">
+                    <div className="md:w-2/6 md:p-3.5 p-2">
                         <p className="text-xl pfr text-center text-gold">
                             SOLAH SHRINGAR
                         </p>
@@ -180,7 +180,7 @@ const Campaigns: React.FC<CampaignsProps> = ({}) => {
                             part of the Solah Shringar.
                         </p>
                     </div>
-                    <div className="w-4/6">
+                    <div className="md:w-4/6 w-full">
                         <img src="https://sunitashekhawat.com/skin/frontend/flamingo/default/images/campaign-img4.jpg" />
                     </div>
                 </div>

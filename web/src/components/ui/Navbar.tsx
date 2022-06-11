@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "next/link";
 import { VscMenu, VscClose } from "react-icons/vsc";
 
 interface NavbarProps {}
@@ -8,7 +9,7 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
     const links = [
         { url: "/worldofss", text: "WORLD OF SUNITA SHEKHAWAT" },
         { url: "worldofss/", text: "FINE JEWELLERY" },
-        { url: "worldofss/", text: "EVENTS & NEWS" },
+        { url: "/collections", text: "COLLECTIONS" },
         { url: "/campaigns", text: "CAMPAIGNS" },
         { url: "/stores", text: "STORES" },
     ];
@@ -24,17 +25,16 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                     </a>
                 </div>
                 <div className="flex items-center justify-center mx-auto pt-4">
-                    <a href="/worldofss" className="nav-item">
-                        WORLD OF SUNITA SHEKHAWAT
-                    </a>
-                    <a className="nav-item">FINE JEWELLERY</a>
-                    <a className="nav-item">EVENTS {"&"} NEWS</a>
-                    <a href={"/campaigns"} className="nav-item">
-                        CAMPAIGNS
-                    </a>
-                    <a href={"/stores"} className="nav-item">
-                        STORES
-                    </a>
+                    {links.map((link, i) => (
+                        <a
+                            key={i}
+                            href={link.url}
+                            className="nav-item got ls-2"
+                            style={{ fontSize: "11px" }}
+                        >
+                            {link.text}
+                        </a>
+                    ))}
                 </div>
             </div>
             <div className="block border-b border-gray-300 md:hidden">
@@ -55,7 +55,8 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                             {links.map((link) => (
                                 <a
                                     href={link.url}
-                                    className="text-gold got text-sm font-medium py-2.5 mt-0.5 cursor-pointer"
+                                    style={{ fontSize: "11px" }}
+                                    className="text-gold got ls-2 text-sm font-medium py-2.5 mt-0.5 cursor-pointer"
                                 >
                                     {link.text}
                                 </a>
@@ -69,10 +70,12 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                             className="text-2xl cursor-pointer"
                             color="#A39660"
                         />
-                        <img
-                            className="h-16 w-auto mx-auto"
-                            src="https://sunitashekhawat.com/skin/frontend/flamingo/default/images/logo.png"
-                        />
+                        <Link href={"/"}>
+                            <img
+                                className="h-16 w-auto mx-auto"
+                                src="https://sunitashekhawat.com/skin/frontend/flamingo/default/images/logo.png"
+                            />
+                        </Link>
                     </div>
                 )}
             </div>

@@ -1,8 +1,9 @@
-* Stores -> Contact US
-* Care Instructions (kundan polki, gold)
-* Legal
-* Customer testimonials / reviews
-* Facebook, insta links
-* Collections pages (Diamond, kundan polki, gold)
-* content to be added
-* Awards & certificates
+[x] -*- Stores -> Contact US
+[ ] -*- Care Instructions (kundan polki(to be copied), diamond)
+[x] -*- Legal
+[ ] -*- Customer testimonials / reviews
+[x] -*- Facebook, insta links
+[ ] -*- Collections pages (Diamond, kundan polki, gold)
+[ ] -*- content to be added
+[ ] -*- Awards & certificates
+[ ] -*- Redefining jewellery/recreating memories

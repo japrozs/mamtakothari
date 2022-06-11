@@ -32,8 +32,12 @@ a {
     font-family: "Gotham";
 }
 
+.ls-2 {
+    letter-spacing: 2px;
+}
+
 @layer components {
     .nav-item {
-        @apply text-gold got text-xs font-medium mx-5 hover:cursor-pointer hover:underline;
+        @apply text-gold got font-medium mx-5 hover:cursor-pointer hover:underline;
     }
 }

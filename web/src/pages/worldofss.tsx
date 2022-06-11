@@ -39,23 +39,23 @@ const Worldofss: React.FC<worldofssProps> = ({}) => {
                     backgroundSize: "cover",
                     height: "600px",
                 }}
-                className="flex flex-col md:flex-row items-center justify-center p-10 mx-11"
+                className="flex flex-col md:flex-row items-center justify-center p-4 md:p-10 mx-5 md:mx-11"
             >
                 <div className="w-full">
                     <img
-                        className="max-w-xs md:max-w-sm h-auto ml-auto mr-10 mb-10 md:mb-0"
+                        className="max-w-xs mx-auto md:mx-0 w-52 md:max-w-sm md:w-auto md:h-auto md:ml-auto md:mr-10 md:mb-10 mb-0"
                         src="https://sunitashekhawat.com/skin/frontend/flamingo/default/images/world-of-ss-img1.jpg"
                     />
                 </div>
                 <div className="w-full text-center">
-                    <p className="text-purple pfr italic text-xl px-10">
+                    <p className="text-purple pfr italic text-xl py-3 md:py-0 px-2 md:px-10">
                         Design is not just an art form that I enjoy or a canvas
                         for my creativity, it goes beyond that, to become the
                         medium for my storytelling.
                     </p>
                 </div>
             </div>
-            <div className="mx-11 my-14">
+            <div className="mx-5 md:mx-11 my-14">
                 <div className="flex flex-col md:flex-row items-center">
                     <div className="w-full">
                         <img
@@ -76,7 +76,7 @@ const Worldofss: React.FC<worldofssProps> = ({}) => {
                         <h1 className="text-purple pfr text-2xl">
                             CRAFTSMANSHIP
                         </h1>
-                        <p className="mx-10 mt-2 text-purple">
+                        <p className="mx-0 md:mx-10 mt-2 text-purple">
                             Each luxurious aesthetic in the brand's collections
                             celebrates traditional skills with detailed
                             craftsmanship. Completely handmade, the art of
@@ -95,7 +95,7 @@ const Worldofss: React.FC<worldofssProps> = ({}) => {
                         <h1 className="text-purple pfr text-2xl">
                             TIMELESSNESS
                         </h1>
-                        <p className="mx-10 mt-2 text-purple">
+                        <p className="mx-0 md:mx-10 mt-2 text-purple">
                             Sunita Shekhawat's passion and devotion to her craft
                             combined with the use of pure and rare stones
                             manifests in each and every creation, a priceless
@@ -135,7 +135,7 @@ const Worldofss: React.FC<worldofssProps> = ({}) => {
                             src="https://sunitashekhawat.com/skin/frontend/flamingo/default/images/pattern-img5.png"
                         />
                         <h1 className="text-purple pfr text-2xl">INTRICACY</h1>
-                        <p className="mx-10 mt-2 text-purple">
+                        <p className="mx-0 md:mx-10 mt-2 text-purple">
                             These objects of desire pass through many hands as
                             they are sculpted, painted and engraved, every
                             meenakar adds a personal touch to the piece guided
@@ -152,7 +152,7 @@ const Worldofss: React.FC<worldofssProps> = ({}) => {
                         <h1 className="text-purple pfr text-2xl">
                             REVIVAL OF THE ART
                         </h1>
-                        <p className="mx-10 mt-2 text-purple">
+                        <p className="mx-0 md:mx-10 mt-2 text-purple">
                             The challenge and conversely the strength of the
                             brand lies in preserving the old world and original
                             charm, while reinventing the sensibility for

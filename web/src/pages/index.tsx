@@ -58,7 +58,7 @@ const Home = () => {
                     src="https://sunitashekhawat.com/skin/frontend/flamingo/default/images/home-banner1.jpg"
                 />
                 <div className="w-4/12 text-center">
-                    <p className="text-4xl pfr text-purple">
+                    <p className="md:text-4xl text-2xl pfr text-purple">
                         THE
                         <br />
                         MODERN
@@ -77,16 +77,16 @@ const Home = () => {
                         MEENAKAR
                     </p>
                     <button className="ml-auto mr-10 mt-7 border transition duration-auto got text-purple border-purple max-w-max text-sm p-2.5 font-semibold hover:bg-purple hover:text-white">
-                        ABOUT SUNITA SHEKHAWAT
+                        ABOUT MAMTA KOTHARI
                     </button>
                 </div>
                 <div className="w-full">
                     <img
-                        className="mx-auto mb-6 lg:mb-0 h-96 w-auto"
+                        className="mx-auto mb-6 lg:mb-0 h-72 md:h-96 w-auto"
                         src="https://sunitashekhawat.com/skin/frontend/flamingo/default/images/ss-img.jpg"
                     />
                 </div>
-                <div className="w-full pfr text-purple italic text-xl">
+                <div className="w-full pfr text-purple italic text-md md:text-xl">
                     Born in a Rajput family in Osian Thikana, a small village
                     near Jodhpur, Rajasthan, the daughter of an Indian air force
                     officer, Sunita Shekhawat had the opportunity to travel
@@ -113,10 +113,10 @@ const Home = () => {
                     }}
                 >
                     <p className="text-sm font-bold text-purple">COLLECTION</p>
-                    <p className="text-purple pfr text-4xl pt-2">
+                    <p className="text-purple pfr text-3xl md:text-4xl pt-2">
                         THE 'PADMAPRIYA'
                     </p>
-                    <p className="px-14 text-purple pfr text-xl pt-4">
+                    <p className="px-5 md:px-14 text-purple pfr text-md md:text-xl pt-4">
                         Padmapriya collection, set in 22 kt gold, combines the
                         aspect of tradition and modern. Highlighting the
                         dazzling and delectables with Polki diamonds, south -
@@ -128,21 +128,21 @@ const Home = () => {
                 <div className="w-full text-center">
                     <p className="text-sm font-bold text-purple">EARRINGS</p>
                     <img
-                        className="mx-auto h-64 w-auto"
+                        className="mx-auto h-52 md:h-64 w-auto"
                         src="https://sunitashekhawat.com/skin/frontend/flamingo/default/images/home-padmapriya-earrings.png"
                     />
                 </div>
                 <div className="w-full text-center">
                     <p className="text-sm font-bold text-purple">NECKLACE</p>
                     <img
-                        className="mx-auto h-80 w-auto"
+                        className="mx-auto h-72 md:h-80 w-auto"
                         src="https://sunitashekhawat.com/skin/frontend/flamingo/default/images/necklace-img.png"
                     />
                 </div>
                 <div className="w-full text-center">
                     <p className="text-sm font-bold text-purple">MAANGTIKA</p>
                     <img
-                        className="mx-auto h-64 w-auto"
+                        className="mx-auto h-52 md:h-64 w-auto"
                         src="https://sunitashekhawat.com/skin/frontend/flamingo/default/images/home-padmapriya-maangtika.png"
                     />
                 </div>
@@ -167,12 +167,12 @@ const Home = () => {
                     <p className="text-sm font-bold text-purple">
                         THE DESIGNER
                     </p>
-                    <p className="text-purple pfr text-4xl pt-2">
+                    <p className="text-purple pfr text-3xl md:text-4xl pt-2">
                         THE ART
                         <br />
                         ON MEENAKARI
                     </p>
-                    <p className="px-14 text-purple pfr text-xl pt-4">
+                    <p className="px-5 md:px-14 text-purple pfr text-md md:text-xl pt-4">
                         '' We create timeless masterpieces based on traditional
                         practices of Meenakari ''
                     </p>
