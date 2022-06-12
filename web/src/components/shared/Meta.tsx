@@ -22,14 +22,14 @@ export const Meta: React.FC<MetaProps> = ({ title, owner, description }) => {
             />
             <meta property="og:determiner" content="the" />
             <meta property="og:locale" content="en_GB" />
-            <meta property="og:site_name" content="Sunita Shekhawat" />
+            <meta property="og:site_name" content="Mamta Kothari" />
             <meta
                 name="og:description"
                 content={description != null ? description : "Spam"}
             />
             <meta name="og:site_name" content="Spam" />
             <meta name="og:image" content={`../../public/logo.png`} />
-            <meta property="og:image:alt" content="Sunita Shekhawat" />
+            <meta property="og:image:alt" content="Mamta Kothari" />
         </>
     );
 };

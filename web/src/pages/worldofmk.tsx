@@ -2,9 +2,9 @@ import React, { createRef, useEffect } from "react";
 import { Footer } from "../components/Footer";
 import { Navbar } from "../components/ui/Navbar";
 
-interface worldofssProps {}
+interface worldofmkProps {}
 
-const Worldofss: React.FC<worldofssProps> = ({}) => {
+const WorldofMK: React.FC<worldofmkProps> = ({}) => {
     const img1Ref = createRef<HTMLImageElement>();
     const img2Ref = createRef<HTMLImageElement>();
     const img3Ref = createRef<HTMLImageElement>();
@@ -96,7 +96,7 @@ const Worldofss: React.FC<worldofssProps> = ({}) => {
                             TIMELESSNESS
                         </h1>
                         <p className="mx-0 md:mx-10 mt-2 text-purple">
-                            Sunita Shekhawat{"'"}s passion and devotion to her
+                            Mamta Kothari{"'"}s passion and devotion to her
                             craft combined with the use of pure and rare stones
                             manifests in each and every creation, a priceless
                             heirloom, passed on for generations to come. These
@@ -139,7 +139,7 @@ const Worldofss: React.FC<worldofssProps> = ({}) => {
                             These objects of desire pass through many hands as
                             they are sculpted, painted and engraved, every
                             meenakar adds a personal touch to the piece guided
-                            by Sunita Shekhawat{"'"}s perfection and devotion.
+                            by Mamta Kothari{"'"}s perfection and devotion.
                         </p>
                     </div>
                 </div>
@@ -179,4 +179,4 @@ const Worldofss: React.FC<worldofssProps> = ({}) => {
     );
 };
 
-export default Worldofss;
+export default WorldofMK;

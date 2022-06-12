@@ -7,8 +7,8 @@ interface NavbarProps {}
 export const Navbar: React.FC<NavbarProps> = ({}) => {
     const [open, setOpen] = useState(false);
     const links = [
-        { url: "/worldofss", text: "WORLD OF SUNITA SHEKHAWAT" },
-        { url: "worldofss/", text: "FINE JEWELLERY" },
+        { url: "/worldofmk", text: "WORLD OF MAMTA KOTHARI" },
+        { url: "/worldofmk", text: "FINE JEWELLERY" },
         { url: "/collections", text: "COLLECTIONS" },
         { url: "/campaigns", text: "CAMPAIGNS" },
         { url: "/stores", text: "STORES" },
