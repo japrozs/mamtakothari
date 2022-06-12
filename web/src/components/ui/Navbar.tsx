@@ -52,8 +52,9 @@ export const Navbar: React.FC<NavbarProps> = ({}) => {
                             />
                         </div>
                         <div className="flex flex-col mx-auto px-3">
-                            {links.map((link) => (
+                            {links.map((link, i) => (
                                 <a
+                                    key={i}
                                     href={link.url}
                                     style={{ fontSize: "11px" }}
                                     className="text-gold got ls-2 text-sm font-medium py-2.5 mt-0.5 cursor-pointer"

@@ -114,7 +114,7 @@ const Home = () => {
                 >
                     <p className="text-sm font-bold text-purple">COLLECTION</p>
                     <p className="text-purple pfr text-3xl md:text-4xl pt-2">
-                        THE 'PADMAPRIYA'
+                        THE {"'"}PADMAPRIYA{"'"}
                     </p>
                     <p className="px-5 md:px-14 text-purple pfr text-md md:text-xl pt-4">
                         Padmapriya collection, set in 22 kt gold, combines the
@@ -173,8 +173,8 @@ const Home = () => {
                         ON MEENAKARI
                     </p>
                     <p className="px-5 md:px-14 text-purple pfr text-md md:text-xl pt-4">
-                        '' We create timeless masterpieces based on traditional
-                        practices of Meenakari ''
+                        {"''"} We create timeless masterpieces based on
+                        traditional practices of Meenakari {"''"}
                     </p>
                 </div>
             </div>

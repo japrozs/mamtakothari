@@ -77,10 +77,10 @@ const Worldofss: React.FC<worldofssProps> = ({}) => {
                             CRAFTSMANSHIP
                         </h1>
                         <p className="mx-0 md:mx-10 mt-2 text-purple">
-                            Each luxurious aesthetic in the brand's collections
-                            celebrates traditional skills with detailed
-                            craftsmanship. Completely handmade, the art of
-                            meenakari is a long laborious craft form that
+                            Each luxurious aesthetic in the brand{"'"}s
+                            collections celebrates traditional skills with
+                            detailed craftsmanship. Completely handmade, the art
+                            of meenakari is a long laborious craft form that
                             involves long man hours to complete one piece of
                             jewellery.
                         </p>
@@ -96,8 +96,8 @@ const Worldofss: React.FC<worldofssProps> = ({}) => {
                             TIMELESSNESS
                         </h1>
                         <p className="mx-0 md:mx-10 mt-2 text-purple">
-                            Sunita Shekhawat's passion and devotion to her craft
-                            combined with the use of pure and rare stones
+                            Sunita Shekhawat{"'"}s passion and devotion to her
+                            craft combined with the use of pure and rare stones
                             manifests in each and every creation, a priceless
                             heirloom, passed on for generations to come. These
                             prized possessions of excellence, have illuminated
@@ -139,7 +139,7 @@ const Worldofss: React.FC<worldofssProps> = ({}) => {
                             These objects of desire pass through many hands as
                             they are sculpted, painted and engraved, every
                             meenakar adds a personal touch to the piece guided
-                            by Sunita Shekhawat's perfection and devotion.
+                            by Sunita Shekhawat{"'"}s perfection and devotion.
                         </p>
                     </div>
                 </div>

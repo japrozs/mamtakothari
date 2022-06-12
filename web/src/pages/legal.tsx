@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import Head from "next/head";
 import { Navbar } from "../components/ui/Navbar";
@@ -215,13 +216,13 @@ const Legal: React.FC<LegalProps> = ({}) => {
                             agents, employees, officers, directors,
                             shareholders, affiliates and assigns from all
                             liabilities, claims, damages, costs and expenses,
-                            including reasonable attorneys' fees and expenses,
-                            of third parties relating to or arising out of (1)
-                            this Agreement or the breach of your warranties,
-                            representations and obligations under this
-                            Agreement; (2) the Website content or your use of
-                            the Website content; (3) the Products or your use of
-                            the Products (including Trial Products); (4) any
+                            including reasonable attorneys{"'"} fees and
+                            expenses, of third parties relating to or arising
+                            out of (1) this Agreement or the breach of your
+                            warranties, representations and obligations under
+                            this Agreement; (2) the Website content or your use
+                            of the Website content; (3) the Products or your use
+                            of the Products (including Trial Products); (4) any
                             intellectual property or other proprietary right of
                             any person or entity; (5) your violation of any
                             provision of this Agreement; or (6) any information
