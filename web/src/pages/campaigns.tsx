@@ -69,7 +69,7 @@ const Campaigns: React.FC<CampaignsProps> = ({}) => {
                         </p>
                         <p className="text-sm pfr text-center text-gold my-2">
                             The extravagance of the jewels is not only a
-                            reflection of Mamta Kothari's roots in royalty but
+                            reflection of Mamta Kothari{"'"}s roots in royalty but
                             also to her quest for work that reflects beauty and
                             dignity. Kundan – Meenakari Jewellery by the very
                             virtue of its design, craftsmanship and rich

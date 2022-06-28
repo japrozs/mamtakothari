@@ -1,12 +1,22 @@
-import React from "react";
+import React, { createRef } from "react";
 import { BsFacebook } from "react-icons/bs";
 import { AiOutlineInstagram } from "react-icons/ai";
+import useAnimation from "../utils/useAnimation";
 
 interface FooterProps {}
 
 export const Footer: React.FC<FooterProps> = ({}) => {
+    const footer = createRef<HTMLDivElement>();
+    useAnimation(footer);
     return (
-        <div className="p-5">
+        <div
+            ref={footer}
+            style={{
+                opacity: "0",
+                transition: "opacity 0.9s ease-in-out",
+            }}
+            className="p-5"
+        >
             <img
                 className="w-28 h-auto mx-auto"
                 src="https://sunitashekhawat.com/skin/frontend/flamingo/default/images/pattern-img4.png"
@@ -37,10 +47,16 @@ export const Footer: React.FC<FooterProps> = ({}) => {
                 <p className="text-gold got text-xs text-center font-medium mt-2 mx-2">
                     &copy; MAMTA KOTHARI 2019. ALL RIGHTS RESERVED
                 </p>
-                <a href="https://facebook.com" target={"_blank"}>
+                <a
+                    href="https://www.facebook.com/FIRE-ICE-by-Mamta-Kothari-779558462441658"
+                    target={"_blank"}
+                >
                     <BsFacebook className="mx-2 text-2xl text-gold cursor-pointer" />
                 </a>
-                <a href="https://instagram.com" target={"_blank"}>
+                <a
+                    href="https://www.instagram.com/fireandice_jewellery/"
+                    target={"_blank"}
+                >
                     <AiOutlineInstagram className="mx-2 text-3xl text-gold cursor-pointer" />
                 </a>
             </div>

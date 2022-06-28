@@ -1,9 +1,35 @@
-[x] -*- Stores -> Contact US
-[ ] -*- Care Instructions (kundan polki(to be copied), diamond)
-[x] -*- Legal
-[ ] -*- Customer testimonials / reviews
-[x] -*- Facebook, insta links
-[ ] -*- Collections pages (Diamond, kundan polki, gold)
-[ ] -*- content to be added
-[ ] -*- Awards & certificates
-[ ] -*- Redefining jewellery/recreating memories
+[x]  Stores -> Contact US
+[ ]  Care Instructions (kundan polki(to be copied), diamond)
+[x]  Legal
+[ ]  Customer testimonials / reviews
+[x]  Facebook, insta links
+[ ]  Collections pages (Diamond, kundan polki, gold)
+[ ]  content to be added
+[ ]  Awards & certificates
+[ ]  Redefining jewellery/recreating memories
+
+[ ]  Fine Jewellery -> Categories:
+	[ ]  Diamond Jewellery
+	[ ]  Kundan Polki
+	[ ]  Gold Jewellery
+	[ ]  Male Jewellery
+	[ ]  Chains
+	[ ]  Loose Diamonds - to be renamed
+
+	Sub-categories:
+		[ ]  Necklace set	
+			[ ]  Bridal wear
+			[ ]  Party wear
+			[ ]  Casual wear
+		[ ]  Pendant set		
+			[ ]  Bridal wear
+			[ ]  Party wear
+			[ ]  Casual wear
+		[ ]  Bangles/ Bracelets		
+		[ ]  Rings		
+			[ ]  Solitaire
+			[ ]  Designer
+			[ ]  Daily wear
+
+[] Fine Jewellery - Collections: 
+	Collections by name
